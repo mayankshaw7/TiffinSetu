@@ -1,0 +1,20 @@
+# Environment secrets (NEVER commit these!)
+.env
+.env.local
+.env.production
+
+# Node modules (too large to store in GitHub)
+node_modules/
+
+# Build output (generated files, don't store these)
+dist/
+build/
+*.log
+
+# OS junk files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# IDE files (VS Code / IntelliJ)
+.vscode/
+.idea/
