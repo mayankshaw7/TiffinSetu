@@ -31,7 +31,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/tiffinsetu-frontend:latest
 
-      - name: Deploy to EC2
+      - name: Deploy to EC
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
