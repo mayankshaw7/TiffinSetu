@@ -10,7 +10,7 @@ const Footer = () => {
           <span className="text-gray-400">Bridging Taste. Delivering Trust.</span>
         </div>
         <p className="text-sm text-gray-400">
-          © 2026 TiffinSetu – Made with ❤️ for tiffin lovers across India.
+          © 2026 TiffinSetu – <span className="font-medium text-gray-200">Mayank Shaw (NIT PATNA)</span>made with ❤️ for tiffin lovers across India.
         </p>
       </div>
     </footer>
