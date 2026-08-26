@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -7,10 +7,24 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center gap-6 mb-4">
           <span className="text-gray-400">TiffinSetu</span>
           <span className="text-gray-600">|</span>
-          <span className="text-gray-400">Bridging Taste. Delivering Trust.</span>
+          <span className="text-gray-400">
+            Bridging Taste. Delivering Trust.
+          </span>
         </div>
+        {/* <p className="text-sm text-gray-400">
+          © 2026 TiffinSetu – <span className="font-medium text-gray-200">Mayank Shaw (NIT PATNA) </span>made with ❤️ for tiffin lovers across India.
+        </p> */}
         <p className="text-sm text-gray-400">
-          © 2026 TiffinSetu – <span className="font-medium text-gray-200">Mayank Shaw (NIT PATNA)</span>made with ❤️ for tiffin lovers across India.
+          © 2026 TiffinSetu – Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/mayankshaw20/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-200 hover:text-white underline transition-colors"
+          >
+            Mayank Shaw (NIT PATNA)
+          </a>{" "}
+          made with ❤️ for tiffin lovers across India.
         </p>
       </div>
     </footer>

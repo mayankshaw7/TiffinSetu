@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar';
-
+import Footer from '../Footer'; // Footer is in src/components/
 const reviews = [
   {
     name: 'Ananya M.',
@@ -107,6 +107,7 @@ const AboutPage = () => {
           </div>
         </section>
       </main>
+       <Footer />
     </div>
   );
 };
