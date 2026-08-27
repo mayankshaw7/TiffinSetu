@@ -24,7 +24,7 @@ const Footer = () => {
           >
             Mayank Shaw (NIT PATNA)
           </a>{" "}
-          made with ❤️ for tiffin lovers across India.
+          made with ❤️ for tiffin lovers across India (🇮🇳).
         </p>
       </div>
     </footer>
