@@ -15,7 +15,7 @@ const Footer = () => {
           © 2026 TiffinSetu – <span className="font-medium text-gray-200">Mayank Shaw (NIT PATNA) </span>made with ❤️ for tiffin lovers across India.
         </p> */}
         <p className="text-sm text-gray-400">
-          © 2026 TiffinSetu – Developed by{" "}
+          © 2026 TiffinSetu | Bridging Taste. Delivering Trust.Designed & developed with ❤️ by{" "}
           <a
             href="https://www.linkedin.com/in/mayankshaw20/"
             target="_blank"
@@ -24,7 +24,7 @@ const Footer = () => {
           >
             Mayank Shaw (NIT PATNA)
           </a>{" "}
-          made with ❤️ for tiffin lovers across India (🇮🇳).
+            for tiffin lovers across India (🇮🇳).
         </p>
       </div>
     </footer>
