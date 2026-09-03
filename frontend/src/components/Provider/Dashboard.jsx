@@ -204,7 +204,8 @@ const ProviderDashboard = () => {
                 value={addForm.foodType}
                 onChange={e => setAddForm({ ...addForm, foodType: e.target.value })}
                 className={selectClass}
-              >
+              > 
+                <option value="">Select Food Type</option>
                 <option value="veg">Veg (With Onion/Garlic)</option>
                 <option value="pure-veg">Pure Veg (No Onion/Garlic)</option>
                 <option value="jain">Jain</option>
@@ -281,6 +282,7 @@ const ProviderDashboard = () => {
                           onChange={e => setEditForm({ ...editForm, foodType: e.target.value })}
                           className="w-full rounded-lg border border-blue-200 bg-white px-3 py-2 text-sm outline-none focus:border-blue-500 mb-2"
                         >
+                          <option value="">Select Food Type</option>
                           <option value="veg">Veg (With Onion/Garlic)</option>
                           <option value="pure-veg">Pure Veg (No Onion/Garlic)</option>
                           <option value="jain">Jain</option>
@@ -291,6 +293,7 @@ const ProviderDashboard = () => {
                           onChange={e => setEditForm({ ...editForm, timing: e.target.value })}
                           className="w-full rounded-lg border border-blue-200 bg-white px-3 py-2 text-sm outline-none focus:border-blue-500 mb-2"
                         >
+                          <option value="">Select Timing</option>
                           <option value="Breakfast">Breakfast</option>
                           <option value="Lunch">Lunch</option>
                           <option value="Dinner">Dinner</option>
