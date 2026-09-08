@@ -87,7 +87,7 @@ It enables users to discover and order meals based on dietary preferences (Pure 
 ### Customer Dashboard & Orders
 | Customer Dashboard | Orders Page |
 | :---: | :---: |
-| ![Customer Dashboard](screenshots/customer-dashboard.png) | ![Orders Page](screenshots/orders-page.png) |
+| ![Customer Dashboard](screenshots/cutomer-dashboard.png) | ![Orders Page](screenshots/orders-page.png) |
 
 ### Cart Page & Provider Dashboard
 | Cart Page | Provider Dashboard |
