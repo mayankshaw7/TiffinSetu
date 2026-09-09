@@ -30,7 +30,7 @@ TiffinSetu/
 **TiffinSetu** connects **customers** with **tiffin service providers** across India.  
 It enables users to discover and order meals based on dietary preferences (Pure Veg, Jain, Non‑Veg), manage carts, and track order history – all with a seamless, role‑based experience.
 
-> **🌐 Live Demo:** [http://your-ec2-ip](http://your-ec2-ip) *(Replace with your actual IP)*
+> **🌐 Live Demo:** [http://your-ec2-ip](http://16.171.138.108/)
 
 ---
 
